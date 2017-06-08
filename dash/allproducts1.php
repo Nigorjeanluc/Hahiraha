@@ -85,7 +85,7 @@
                                     <?php
                                     include("../connect.php");
                                     $seller=$_SESSION['seller'];
-                                    $sqli="SELECT * FROM products WHERE Seller='$seller'";
+                                    $sqli="SELECT * FROM products WHERE Sellers='$seller'";
                                     $result=mysqli_query($dbcon,$sqli);
                                     while ($row=mysqli_fetch_assoc($result)) {
                                     echo'
@@ -93,7 +93,7 @@
                                             <td class="text-center">'.$row["Name"].'</td>
                                             <td class="text-center">'.$row["Quantity"].'</td>
                                             <td class="text-center">'.$row["Price"].'</td>
-                                            <td class="text-center">'.$row["Seller"].'</td>
+                                            <td class="text-center">'.$row["Sellers"].'</td>
                                             <td class="text-center">'.$row["Province"].'</td>
                                             <td class="text-center">'.$row["District"].'</td>
                                             <td class="text-center">'.$row["Date"].'</td>
@@ -105,8 +105,9 @@
                                     }
                                     ?>
                                     </tbody>
-                                </table>
+                                </table><br />
                                 <!-- /.table-responsive -->
+                <button class="btn btn-default" onClick="window.print()">Print</button>
                 </div><!-- /.box-body -->
               </div><!-- /.box -->
             </div><!-- /.col -->

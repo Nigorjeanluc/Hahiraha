@@ -181,6 +181,8 @@
                                                 <option value="Farmers">Farmer</option>
                                                 <option value="Universities">University</option>
                                                 <option value="Schools">School</option>
+                                                <option value="Hotels">Hotel</option>
+                                                <option value="Services">Service</option>
                                                 <option value="Buildings">Quincallerie</option>                                                 <option value="Hotels">Hotel</option>
                                             </select>
                                         </div>

@@ -63,7 +63,7 @@
                                 echo'
                                                 <div class="alert alert-success alert-dismissable text-center">
                                                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                                    Product deleted.
+                                                    Seller deleted.
                                                 </div>
                                                 ';
                                 }
@@ -106,7 +106,8 @@
                                     }
                                     ?>
                                     </tbody>
-                  </table>
+                  </table><br />
+                  <button class="btn btn-default" onClick="window.print()">Print</button>
                 </div><!-- /.box-body -->
               </div><!-- /.box -->
             </div><!-- /.col -->
