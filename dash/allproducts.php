@@ -105,7 +105,7 @@
                                     ?>
                                     </tbody>
                   </table><br />
-                  <button class="btn btn-default" onClick="window.print()">Print</button>
+                  <div align="right"><button class="btn btn-default" onClick="window.print()">Print</button></div>
                 </div><!-- /.box-body -->
               </div><!-- /.box -->
             </div><!-- /.col -->
